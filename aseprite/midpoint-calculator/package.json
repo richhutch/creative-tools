@@ -1,0 +1,13 @@
+{
+    "name": "midpoint-calculator",
+    "displayName": "Midpoint Calculator",
+    "description": "Calculates the midpoint between your foreground and background colors",
+    "version": "1.0.0",
+    "contributes": {
+        "scripts": [
+            {
+                "path": "midpoint-calculator.lua"
+            }
+        ]
+    }
+}
