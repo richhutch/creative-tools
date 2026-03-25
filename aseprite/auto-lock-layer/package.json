@@ -1,0 +1,13 @@
+{
+    "name": "auto-lock-layer",
+    "displayName": "Auto Lock Layer",
+    "description": "Automatically locks a layer when you switch away from it",
+    "version": "1.0.0",
+    "contributes": {
+        "scripts": [
+            {
+                "path": "auto-lock-layer.lua"
+            }
+        ]
+    }
+}

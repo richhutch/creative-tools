@@ -1,5 +1,7 @@
 local previousLayer= nil
 
+function init(plugin)
+
 -- is there a file open? If not end script
 local function onSiteChange()
     local sprite = app.sprite
@@ -29,4 +31,4 @@ end
 end
 
 app.events:on('sitechange', onSiteChange)
-app.alert("Auto-lock active! Layers will lock when you leave them.")
+end
