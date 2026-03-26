@@ -50,7 +50,7 @@ function init(plugin)
                     end
                 end
             end
-            local threshold = 10
+            local threshold = 15
             local similarPairs = {}
             for i = 1, #uniqueColors do
                 for j = i + 1, #uniqueColors do
