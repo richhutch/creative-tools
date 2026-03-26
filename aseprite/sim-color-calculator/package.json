@@ -1,0 +1,13 @@
+{
+    "name": "sim-color-calculator",
+    "displayName": "Similarity Calculator",
+    "description": "Calculate Similarity between two colors close in value",
+    "version": "1.0.0",
+    "contributes": {
+        "scripts": [
+            {
+                "path": "sim-color-calculator.lua"
+            }
+        ]
+    }
+}
