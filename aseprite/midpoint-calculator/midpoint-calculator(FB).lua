@@ -2,6 +2,7 @@ function init(plugin)
     plugin:newCommand{
         id="midpoint-calculator",
         title="Midpoint Calculator",
+        group="file_scripts",
         onclick=function()
             if not app.activeSprite then
                 app.alert("Please open a sprite first!")
